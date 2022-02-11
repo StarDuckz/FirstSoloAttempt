@@ -1,0 +1,270 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border-style: none;
+  border-top: dotted 8px #FDEBF7;
+  margin: 0 auto;
+  width: 7%;
+}
+
+h2 {
+  color: #1A1A40;
+}
+
+h3 {
+  color: #1A1A40;
+}
+
+/********************CLASS SELECTORS******************/
+.top-container {
+  background-color: #8946A6;
+  position: relative;
+  display: block;
+  top: 0;
+  height: 100vh;
+  border-bottom: solid 8px grey;
+
+}
+
+.top-cloud {
+  overflow: hidden;
+  position: relative;
+  background-color: #8946A6;
+  height: 48px;
+  width: 150px;
+  animation: cloud1 120s infinite linear alternate;
+}
+
+.mid-cloud {
+  overflow: hidden;
+  position: relative;
+  background-color: #8946A6;
+  height: 48px;
+  width: 150px;
+  animation: cloud3 120s infinite linear alternate;
+}
+
+.bot-cloud {
+  overflow: hidden;
+  position: relative;
+  background-color: #8946A6;
+  height: 48px;
+  width: 150px;
+  animation: cloud2 120s infinite linear alternate;
+}
+
+@keyframes cloud1 {
+  0% {
+    top: 50px;
+    left: 0;
+  }
+
+  22% {
+    top: 50px;
+    left: 300px;
+  }
+
+  44% {
+    top: 50px;
+    left: 600px;
+  }
+
+  66% {
+    top: 50px;
+    left: 1000px;
+  }
+
+  100% {
+    top: 50px;
+    left: 1200px;
+  }
+}
+
+@keyframes cloud2 {
+  0% {
+    top: 100px;
+    left: 500px;
+  }
+
+  33% {
+    top: 100px;
+    left: 600px;
+  }
+
+  66% {
+    top: 100px;
+    left: 700px;
+  }
+
+  100% {
+    top: 100px;
+    left: 1086px;
+  }
+}
+
+@keyframes cloud3 {
+  0% {
+    top: 100px;
+    left: 300px;
+  }
+
+  22% {
+    top: 100px;
+    left: 600px;
+  }
+
+  44% {
+    top: 100px;
+    left: 800px;
+  }
+
+  66% {
+    top: 100px;
+    left: 1000px;
+  }
+
+  100% {
+    top: 100px;
+    left: 1200px;
+  }
+}
+
+.mountain {
+  position: relative;
+  bottom: 90px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 300px;
+  left: 300px;
+}
+
+.my-name {
+  font-family: 'Staatliches', cursive;
+  font-size: 4rem;
+  text-shadow: 0 0 3px black;
+  margin: 100px auto 0;
+}
+
+.typing {
+  font-family: 'Share Tech Mono', monospace;
+  display: inline-block;
+}
+
+.typewriter {
+  display: inline-block;
+  text-shadow: 0 0 3px black;
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: 700;
+  font-size: 17px;
+  border-right: groove 2px black;
+  animation: type 3s steps(40, end), blinking 0.5s step-end infinite;
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blinking {
+  from, to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: black;
+  }
+}
+
+.mid-container {
+  display: block;
+  background-color: #CFFFDC;
+  padding-bottom: 46px;
+  margin-top:
+}
+
+.skills {
+  padding-top: 40px;
+}
+
+.avatar {
+  height: 200px;
+  width: 200px;
+  border-radius: 80px;
+  background-color: #8946A6;
+  float: left;
+  margin-right: 25px;
+}
+
+.intro {
+  width: 60%;
+  margin: 10px auto 100px;
+  padding-top: 20px;
+  line-height: 1.5;
+}
+
+.skill-row1 {
+  margin: 100px auto 80px auto;
+  width: 60%;
+  line-height: 1.5;
+}
+
+.skill-row2 {
+  margin: 80px auto 60px auto;
+  width: 60%;
+  line-height: 1.5;
+}
+
+.skill-row3 {
+  margin: 80px auto 100px auto;
+  width: 60%;
+  line-height: 1.5;
+}
+
+.focus {
+  width: 21%;
+  float: left;
+  margin-right: 30px;
+}
+
+.fast-learner {
+  width: 21%;
+  float: right;
+  margin-left: 30px;
+}
+
+.resilient {
+  width: 21%;
+  float: left;
+  margin-right: 30px;
+}
+
+.bottom-container {
+  border-top: solid 8px grey;
+    background-color: #8946A6;
+    margin: 0;
+    padding: 20px;
+}
+
+.linkedin {
+  height: 30px;
+  width: 30px;
+  margin-right:  30px;
+}
+
+
+.instagram {
+  height: 30px;
+  width: 30px;
+}
